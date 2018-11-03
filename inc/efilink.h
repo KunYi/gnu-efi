@@ -1,6 +1,9 @@
 #ifndef _EFI_LINK_H
 #define _EFI_LINK_H
 
+#ifndef intptr_t
+#include <stdint.h>
+#endif
 /*++
 
 Copyright (c) 1998  Intel Corporation
